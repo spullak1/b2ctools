@@ -1,101 +1,48 @@
-# Project Name
+# B2C Tools
 
-Brief description of the project and its purpose.
+A collection of utilities, scripts, and operational documentation used to support Microsoft Entra External ID (Azure AD B2C) environments.
 
-## Features
+## Purpose
 
-- Feature 1
-- Feature 2
-- Feature 3
+This repository contains tools for:
 
-## Architecture
-
-```text
-User
-  ↓
-Application
-  ↓
-API
-  ↓
-Database
-```
-
-## Prerequisites
-
-- Git
-- Python 3.12
-- Node.js 20
-- Docker (optional)
-
-## Installation
-
-```bash
-git clone https://github.com/org/repo.git
-cd repo
-```
-
-## Configuration
-
-Create a configuration file:
-
-```bash
-cp config.example.json config.json
-```
-
-Update the required settings.
-
-## Usage
-
-Start the application:
-
-```bash
-python app.py
-```
-
-or
-
-```bash
-npm start
-```
-
-## Deployment
-
-```bash
-docker build -t app .
-docker run -p 8080:8080 app
-```
+- App registration auditing
+- Claims inspection and validation
+- JWT token decoding
+- Custom policy validation
+- Operational support and troubleshooting
 
 ## Repository Structure
 
 ```text
-repo/
-├── src/
-├── docs/
-├── tests/
-├── scripts/
+b2c-tools/
 ├── README.md
-└── CHANGELOG.md
+├── CHANGELOG.md
+├── docs/
+├── tools/
 ```
+
+## Available Tools
+
+| Tool | Description |
+|--------|-------------|
+| Claims Viewer | Inspect B2C claims and user attributes |
+| App Registration Audit | Review app registration settings |
+| Token Decoder | Decode and analyze JWT tokens |
+| Policy Validator | Validate B2C custom policies |
+
+## Documentation
+
+- docs/setup.md
+- docs/architecture.md
+- docs/runbook.md
 
 ## Contributing
 
-1. Create a branch
-2. Commit changes
-3. Create a pull request
-
-## Troubleshooting
-
-| Issue | Resolution |
-|---------|------------|
-| Login failure | Verify configuration |
-| Application won't start | Check logs |
+1. Create a feature branch
+2. Submit a pull request
+3. Update changelog and documentation
 
 ## Support
 
-Contact:
-- Team Email
-- Slack/Teams Channel
-
-## License
-
-MIT License
+For questions or issues, contact the B2C engineering team.
