@@ -21,6 +21,8 @@ cd b2c-tools
 ## Recommended VS Code Extensions
 
 - PowerShell
+    #inititlize config
+    `.\init-config.ps1 -Project claims-viewer -Environment prd`
 - GitLens
 - Markdown All In One
 - Azure Tools
